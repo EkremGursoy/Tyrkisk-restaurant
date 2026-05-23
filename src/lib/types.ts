@@ -1,9 +1,11 @@
+import type { StaticImageData } from "next/image";
+
 export interface Dish {
   id: string;
   name: string;
   description: string;
   price: number;
-  image: string;
+  image: string | StaticImageData;
 }
 
 export interface MenuCategory {

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import jasonImg from "@/pictures/jason-leung--eKZLpj7U0E-unsplash.jpg";
 import SectionHeading from "@/components/ui/SectionHeading";
 
 export default function StorySection() {
@@ -17,7 +18,7 @@ export default function StorySection() {
             className="relative aspect-[3/4] overflow-hidden rounded-2xl"
           >
             <Image
-              src="https://images.unsplash.com/photo-1577219491135-25f6fd1b44fb?w=800&q=80"
+              src={jasonImg}
               alt="Chef preparing Turkish cuisine"
               fill
               className="object-cover"

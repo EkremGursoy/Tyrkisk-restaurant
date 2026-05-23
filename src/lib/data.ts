@@ -1,4 +1,6 @@
 import type { Dish, MenuCategory, Testimonial, Value } from "./types";
+import adanaImg from "../pictures/Adana-Kebab-.jpg";
+import baklavaImg from "../pictures/Bosnian-Baklava-Layered-Nut-Pastry-2048x1499.webp";
 
 export const featuredDishes: Dish[] = [
   {
@@ -7,7 +9,7 @@ export const featuredDishes: Dish[] = [
     description:
       "Hand-minced lamb seasoned with red pepper and herbs, grilled over open flame.",
     price: 229,
-    image: src/pictures/adana-kebab.jpg,
+    image: adanaImg,
   },
   {
     id: "mixed-grill",
@@ -33,7 +35,7 @@ export const featuredDishes: Dish[] = [
     description:
       "Layers of flaky pastry filled with pistachios and sweetened with honey syrup.",
     price: 89,
-    image: src/pictures/baklava.jpg,
+    image: baklavaImg,
   },
 ];
 
