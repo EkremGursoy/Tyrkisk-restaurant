@@ -7,8 +7,7 @@ export const featuredDishes: Dish[] = [
     description:
       "Hand-minced lamb seasoned with red pepper and herbs, grilled over open flame.",
     price: 229,
-    image:
-      "https://turkishfoodie.com/wp-content/uploads/2018/11/Adana-Kebab-.jpg",
+    image: src/pictures/adana-kebab.jpg,
   },
   {
     id: "mixed-grill",
@@ -34,8 +33,7 @@ export const featuredDishes: Dish[] = [
     description:
       "Layers of flaky pastry filled with pistachios and sweetened with honey syrup.",
     price: 89,
-    image:
-      "https://delishglobe.com/recipe/bosnian-baklava-layered-nut-pastry/",
+    image: src/pictures/baklava.jpg,
   },
 ];
 
