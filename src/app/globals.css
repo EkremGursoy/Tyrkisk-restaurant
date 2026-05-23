@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-beige-light antialiased;
+  }
+
+  ::selection {
+    @apply bg-gold/30 text-beige-light;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-4 py-20 sm:px-6 lg:px-8 lg:py-28;
+  }
+
+  .container-narrow {
+    @apply mx-auto max-w-7xl;
+  }
+
+  .text-gradient-gold {
+    @apply bg-gradient-to-r from-gold-light via-gold to-gold-dark bg-clip-text text-transparent;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:border-gold/30 hover:shadow-lg hover:shadow-gold/5;
+  }
+}
