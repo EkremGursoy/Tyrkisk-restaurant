@@ -8,7 +8,7 @@ export const featuredDishes: Dish[] = [
       "Hand-minced lamb seasoned with red pepper and herbs, grilled over open flame.",
     price: 229,
     image:
-      "https://images.unsplash.com/photo-1529006557810-274b05b046c3?w=800&q=80",
+     "https://turkishfoodie.com/adana-kebab/",
   },
   {
     id: "mixed-grill",
